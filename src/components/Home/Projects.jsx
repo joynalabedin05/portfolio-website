@@ -31,13 +31,13 @@ const Projects = () => {
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
     return (
-        <div className='py-8'>
+        <div className='my-20  p-7 bg-slate-700 mt-8 rounded-md'>
             <h3 className='text-4xl bg-sky-800 p-5 mb-8 rounded text text-center font-bold'> Feature  <span className='text-orange-400'>Projects</span></h3>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 3500,
+                    delay: 5500,
                     disableOnInteraction: false,
                 }}
                 pagination={{
