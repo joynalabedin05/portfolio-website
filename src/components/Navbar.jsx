@@ -22,11 +22,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/profile' className="btn btn-ghost normal-case text-xl"><div>
-                            <h1 className='md:text-4xl'>MD  <span className='text-orange-400'>JOYNAL ABEDIN</span></h1>
+                            <h1 className='md:text-4xl'>MD  <span className='text-orange-200'>JOYNAL ABEDIN</span></h1>
                         </div></Link>
                 </div>
                 <div className="navbar-end hidden md:flex">
-                    <ul className="flex gap-4 uppercase">
+                    <ul className="flex gap-5 ">
                         <li className='hover:text-orange-300'><Link to='/home'>Home</Link></li>                     
                         <li className='hover:text-orange-300'><Link to='/aboutme'>About Me</Link></li>
                         <li className='hover:text-orange-300'><Link to='/contacts'>Contacts</Link></li>                     

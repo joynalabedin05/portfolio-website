@@ -9,10 +9,17 @@ import {
 
 
 import Main from './components/Main';
+import Home from './components/Home/Home';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      }
+    ]
   },
 ]);
 

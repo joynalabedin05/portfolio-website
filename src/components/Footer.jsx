@@ -8,13 +8,22 @@ const Footer = () => {
             <footer className="footer p-10 rounded-md bg-neutral text-neutral-content">
                 <div className=''>
                     <Link className='md:mx-auto' to='/profile'><img className='w-20 h-16 rounded' src={logo} alt="" /></Link>
-                    <h1 className='md:text-2xl text-lg  footer-title'>MD  <span className='text-orange-400'>JOYNAL ABEDIN</span></h1>
+                    <h1 className='md:text-2xl text-lg  footer-title mb-0'>MD  <span className='text-orange-400'>JOYNAL ABEDIN</span></h1>
+                    <span className=''>Front End Developer</span>
                     All rights reserved  &copy; by Myself created <br />for the purpose of Portfolio
+                </div>
+                <div>
+                    <h3 className='footer-title text-xl'>Abuot Me </h3>
+                    <div className='space-y-2'>
+                        <p><span className='font-bold text-slate-300'>Address: <br /></span> Post: Janjira, Dist: Shariaipur <br /> Dhaka, Bangladesh</p>
+                        <p><span className='font-bold text-slate-300'>Mobile</span>: 01914400378</p>
+                        <p><span className='font-bold text-slate-300'>Email: <br /> </span> joynal05101993@gmail.com</p>
+                    </div>
                 </div>
                 <div>
                     <h3 className='text-xl footer-title'>Important Link</h3>
                     <div>
-                        <ul className=" gap-4 uppercase grid md:grid-cols-2">
+                        <ul className=" gap-4  grid md:grid-cols-2">
                             <li className='hover:text-orange-300'><Link to='/home'>Home</Link></li>
                             <li className='hover:text-orange-300'><Link to='/aboutme'>About Me</Link></li>
                             <li className='hover:text-orange-300'><Link to='/contacts'>Contacts</Link></li>
@@ -33,7 +42,9 @@ const Footer = () => {
                         <Link to='https://github.com/joynalabedin05' target="_blank"><FaGithub size={34}/></Link>
                     </div>
                 </div>
+                
             </footer>
+           
         </div>
     );
 };
