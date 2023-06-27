@@ -22,7 +22,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/profile' className="btn btn-ghost normal-case text-xl"><div>
-                            <h1 className='md:text-4xl'>MD  <span className='text-orange-200'>JOYNAL ABEDIN</span></h1>
+                            <h1 className='md:text-4xl'>  <span className='text-orange-400 text-center ml-20'>JOYNAL .DEV</span></h1>
                         </div></Link>
                 </div>
                 <div className="navbar-end hidden md:flex">

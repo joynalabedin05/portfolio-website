@@ -10,7 +10,7 @@ const Footer = () => {
                     <Link className='md:mx-auto' to='/profile'><img className='w-20 h-16 rounded' src={logo} alt="" /></Link>
                     <h1 className='md:text-2xl text-lg  footer-title mb-0'>MD  <span className='text-orange-400'>JOYNAL ABEDIN</span></h1>
                     <span className=''>Front End Developer</span>
-                    All rights reserved  &copy; by Myself created <br />for the purpose of Portfolio
+                    All rights reserved  &copy; 2023 by Myself created <br />for the purpose of Portfolio Website
                 </div>
                 <div>
                     <h3 className='footer-title text-xl'>Abuot Me </h3>
