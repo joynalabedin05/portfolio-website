@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 
 const AboutMe = () => {
     useEffect(()=>{
-        AOS.init();
+        AOS.init({disable: window.innerWidth < 1024});
     },[])
     const [typeEffect] = useTypewriter({
         words: ['Front End developer', 'React Developer', 'Mern Stack Developer', 'Full Stack Developer' ],
