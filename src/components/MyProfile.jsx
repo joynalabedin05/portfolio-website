@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../public/FACEBOOK.jpg'
 import resume from '../../public/resume.jpg'
+
 const MyProfile = () => {
+   
     return (
         <div className='md:my-20 mt-40'>
             <h3 className='text-4xl p-5 mb-8 rounded text text-center font-bold text-slate-200'> My Profile </h3>

@@ -10,7 +10,7 @@ const Profile = () => {
             </div>
             <div className='md:flex justify-evenly gap-10'>
                 <div className=''>
-                    <div className='md:flex  gap-5 bg-sky-900 rounded-md'>
+                    <div  data-aos='flip-right' data-aos-delay='100' data-aos-duration='2000' className='md:flex  gap-5 bg-sky-900 rounded-md'>
                         <div className='border-r-4 p-6 border-indigo-500'>
                             <h2 className='text-center  bg-slate-300 p-3 text-orange-400 text-2xl w-16 font-bold rounded mb-2'>45+</h2>
                             <p>Projects done</p>
@@ -25,7 +25,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <h3 className='text-2xl py-5 text-center'>Main Projects</h3>
-                    <div className='md:flex gap-5 '>
+                    <div  data-aos='slide-right' data-aos-delay='50' data-aos-duration='500' className='md:flex gap-5 '>
                         <div className=' w-48 p-6 rounded-md border border-slate-500'>
                             <p><span className='font-bold uppercase text-slate-200'>Name:</span>  Sports Car Marketplace
                             </p>

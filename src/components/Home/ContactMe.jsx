@@ -20,7 +20,7 @@ const ContactMe = () => {
                     </div>
                     <button className='btn btn-success'>Send Message</button>
                 </div>
-                <div className='w-1/2 mt-8'>
+                <div  data-aos='flip-right' data-aos-delay='50' data-aos-duration='2000' className='w-1/2 mt-8'>
                     <img className='rounded-md py-3' src={contact} alt="" />
                 </div>
             </div>

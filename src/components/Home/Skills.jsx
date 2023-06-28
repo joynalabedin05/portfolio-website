@@ -7,12 +7,12 @@ const Skills = () => {
         <div className='p-7 mb-20 bg-slate-700 rounded-md'>
             <h3 className='text-4xl bg-sky-800 p-5 rounded text text-center font-bold'> My Skills</h3>
             <div className='mx-auto p-5 text-xl bg-slate-600 mt-8 text-sky-400 rounded mb-7'>
-                <p><span className=' font-bold text-slate-300 '>Expert:</span> Html, Html-5, CSS-3, Vanila CSS, Bootstrap, Tailwind CSS, Daisy UI, Javascript,
+                <p  data-aos='slide-left' data-aos-delay='20' data-aos-duration='500'><span className=' font-bold text-slate-300 '>Expert:</span> Html, Html-5, CSS-3, Vanila CSS, Bootstrap, Tailwind CSS, Daisy UI, Javascript,
                     React.Js, Express.Js, MongoDb etc. <br />
                     <span className=' font-bold text-slate-300'>Comfortable:</span> Node.Js, , Flowbite, Rest API, Next.js etc. <br />
                     <span className=' font-bold text-slate-300'>Tools:</span> VS Code, Git, Netlify, Firebase, npm, Vercel,jwt, Chrome dev tools etc</p>
             </div>
-            <div className='grid md:grid-cols-3 lg:grid-cols-6  gap-8'>
+            <div  data-aos='fade-right' data-aos-delay='500' data-aos-duration='3000' className='grid md:grid-cols-3 lg:grid-cols-6  gap-8'>
                 <div className='bg-sky-800 p-7 rounded md:text-center'>
                     <span><FaHtml5 className='text-sky-300' size={110} /></span>
                     <p className='text-lg '>Html-5</p>
