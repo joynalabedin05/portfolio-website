@@ -5,7 +5,7 @@ import mongo from '../../../public/mongo.png'
 const Skills = () => {
     return (
         <div className='p-7 mb-20 bg-slate-700 rounded-md'>
-            <h3 className='text-4xl bg-sky-800 p-5 rounded text text-center font-bold'> My <span className='text-orange-400'>Skills</span></h3>
+            <h3 className='text-4xl bg-sky-800 p-5 rounded text text-center font-bold'> My Skills</h3>
             <div className='mx-auto p-5 text-xl bg-slate-600 mt-8 text-sky-400 rounded mb-7'>
                 <p><span className=' font-bold text-slate-300 '>Expert:</span> Html, Html-5, CSS-3, Vanila CSS, Bootstrap, Tailwind CSS, Daisy UI, Javascript,
                     React.Js, Express.Js, MongoDb etc. <br />

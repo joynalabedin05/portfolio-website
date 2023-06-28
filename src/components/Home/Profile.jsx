@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <div className='mb-20 bg-slate-700 p-7 rounded-md'>
             <div className='bg-sky-800 rounded p-3 mb-8'>
-                <h3 className='text-4xl text-center font-bold text-slate-100'>About <span className='text-orange-400'>Me</span></h3>
+                <h3 className='text-4xl text-center font-bold text-slate-100'>About Me</h3>
                
             </div>
             <div className='md:flex justify-evenly gap-10'>
