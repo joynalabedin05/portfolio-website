@@ -26,19 +26,19 @@ const Profile = () => {
                     </div>
                     <h3 className='text-2xl py-5 text-center'>Main Projects</h3>
                     <div className='md:flex gap-5 '>
-                        <div className=' w-48 p-6 rounded-md border'>
+                        <div className=' w-48 p-6 rounded-md border border-slate-500'>
                             <p><span className='font-bold uppercase text-slate-200'>Name:</span>  Sports Car Marketplace
                             </p>
                             <p><span className='font-bold uppercase text-slate-200'>Github-repo :</span> <br />  <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-joynalabedin05.git" target='_blank'>Client</a> | <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-joynalabedin05.git" target='_blank'>server</a> | <a className='text-blue-400 hover:text-orange-400' href="https://a-11-toys-marketplace.web.app/" target='_blank'>live</a>
                             </p>
                         </div>
-                        <div className=' w-48 p-6 rounded-md border'>
+                        <div className=' w-48 p-6 rounded-md border border-slate-500'>
                             <p><span className='font-bold uppercase text-slate-200'>Name:</span> Art School Class
                             </p>
                             <p><span className='font-bold uppercase text-slate-200'>Github-repo :</span> <br />  <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-joynalabedin05.git" target='_blank'>Client</a> | <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-joynalabedin05.git" target='_blank'>server</a> | <a className='text-blue-400 hover:text-orange-400' href="https://summer-camp-2aa4b.web.app/" target='_blank'>live</a>
                             </p>
                         </div>
-                        <div className=' w-48 p-6 rounded-md border'>
+                        <div className=' w-48 p-6 rounded-md border border-slate-500'>
                             <p><span className='font-bold uppercase text-slate-200'>Name:</span>  Chef Recipe Hunter
                             </p>
                             <p><span className='font-bold uppercase text-slate-200'>Github-repo :</span> <br />  <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-joynalabedin05.git" target='_blank'>Client</a> | <a className='text-blue-400 hover:text-orange-400' href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-joynalabedin05.git" target='_blank'>server</a> | <a className='text-blue-400 hover:text-orange-400' href="https://a10-chef-recipe-hunter-client.web.app/" target='_blank'>live</a>

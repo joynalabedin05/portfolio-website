@@ -5,10 +5,10 @@ import logo from '../../public/FACEBOOK.jpg'
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 rounded-md bg-neutral text-neutral-content">
+            <footer className="footer p-10 rounded-md bg-slate-800 text-neutral-content border  border-slate-500">
                 <div className=''>
                     <Link className='md:mx-auto' to='/profile'><img className='w-20 h-16 rounded' src={logo} alt="" /></Link>
-                    <h1 className='md:text-2xl text-lg  footer-title mb-0'>MD  <span className='text-orange-400'>JOYNAL ABEDIN</span></h1>
+                    <h1 className='md:text-2xl text-lg  footer-title mb-0'>MD  <span className=''>JOYNAL ABEDIN</span></h1>
                     <span className=''>Front End Developer</span>
                     All rights reserved  &copy; 2023 by Myself created <br />for the purpose of Portfolio Website
                 </div>

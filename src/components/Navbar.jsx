@@ -12,7 +12,7 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className=" dropdown-content mt-3 z-[1] p-2 shadow bg-slate-700 rounded-box w-60">
-                        <li className='hover:text-orange-300'><Link to='/home'>Home</Link></li>                     
+                        <li className='hover:text-orange-300'><Link to='/'>Home</Link></li>                     
                         <li className='hover:text-orange-300'><Link to='/aboutme'>About Me</Link></li>
                         <li className='hover:text-orange-300'><Link to='/contacts'>Contacts</Link></li>                     
                         <li className='hover:text-orange-300'><Link to='/projects'>Projects</Link></li>
@@ -22,12 +22,12 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/profile' className="btn btn-ghost normal-case text-xl"><div>
-                            <h1 className='md:text-4xl'>  <span className='text-orange-400 text-center ml-20'>JOYNAL .DEV</span></h1>
+                            <h1 className='md:text-4xl'>  <span className='text-slate-200 text-center ml-20'>JOYNAL .DEV</span></h1>
                         </div></Link>
                 </div>
                 <div className="navbar-end hidden md:flex">
                     <ul className="flex gap-5 ">
-                        <li className='hover:text-orange-300'><Link to='/home'>Home</Link></li>                     
+                        <li className='hover:text-orange-300'><Link to='/'>Home</Link></li>                     
                         <li className='hover:text-orange-300'><Link to='/aboutme'>About Me</Link></li>
                         <li className='hover:text-orange-300'><Link to='/contacts'>Contacts</Link></li>                     
                         <li className='hover:text-orange-300'><Link to='/projects'>Projects</Link></li>
